@@ -7,9 +7,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/CodeYogiCo/asksolr/internal/solr"
 	"github.com/anthropics/anthropic-sdk-go"
 	"github.com/anthropics/anthropic-sdk-go/option"
-	"github.com/CodeYogiCo/asksolr/internal/solr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

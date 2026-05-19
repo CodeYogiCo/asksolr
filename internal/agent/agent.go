@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/CodeYogiCo/asksolr/internal/solr"
 	"github.com/anthropics/anthropic-sdk-go"
 	"github.com/anthropics/anthropic-sdk-go/option"
-	"github.com/CodeYogiCo/asksolr/internal/solr"
 )
 
 const defaultModel = "claude-opus-4-7"
